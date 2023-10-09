@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #31231d;
+}
+.img1{
+    border-style: solid;
+    border-color: #1a1616;
+    border-radius: 27px;
+    margin-bottom: 40px;
+}
+.img2
+{
+    padding-bottom: 50px;
+}
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #31231d;
+}
+
+.left-content {
+    flex: 1; 
+    padding: 20px; 
+   
+}
+
+.right-content {
+    flex: 1; 
+    padding: 20px;
+    
+}
+
+
+h1, h2 {
+    color: #b69a99;
+}
+
+p {
+    margin-bottom: 15px;
+}

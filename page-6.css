@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1d1a15;
+}
+.img1{
+    border-style: solid;
+    border-color: #13120d;
+    border-radius: 20px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content:center; /* Distribute space between the two columns */
+    max-width: 1280px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+
+
+
+h1, h2 {
+    color: #451a11;
+}
+
+p {
+    color: #d7b365;
+    margin-bottom: 15px;
+}

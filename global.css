@@ -1,0 +1,33 @@
+body 
+{
+    background-color: rgb(38, 38, 38);
+    color: rgb(202, 207, 211);
+    align-items: center;
+    text-align: center;
+}
+ul 
+{
+    list-style-type: none;
+}
+li
+{
+    font-size: 24px;
+
+
+}
+a 
+{
+    text-decoration: none;
+    color: rgb(115, 115, 116);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Optional background color */
+    color: #fff; /* Optional text color */
+    padding: 10px; /* Optional padding */
+    text-align: center; /* Optional text alignment */
+}
+ 

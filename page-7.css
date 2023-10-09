@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+.img1{
+    border-style: solid;
+    border-color: rgb(26, 25, 25);
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(27, 27, 27) ;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space between the two columns */
+    max-width: 1200px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: rgb(17, 17, 17);
+}
+
+.left-content {
+    flex: 1; /* Allow the left column to expand to fill available space */
+    padding: 20px; /* Add padding to the left column */
+    
+}
+
+.right-content {
+    flex: 1; /* Allow the right column to expand to fill available space */
+    padding: 20px; /* Add padding to the right column */
+    
+}
+
+/* Adjust styling for headers and paragraphs as needed */
+h1, h2 {
+    color: rgb(202, 207, 211);;
+}
+
+p {
+    margin-bottom: 15px;
+}
